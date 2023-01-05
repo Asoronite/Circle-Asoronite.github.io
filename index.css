@@ -1,0 +1,128 @@
+* {
+  margin: 50px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(63, 63, 63);
+}
+
+.div0 {
+  width: 140px;
+  height: 140px;
+  background: #D8BFD8	;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 0% 0%, 50% 50%,80% 0%);
+  border-radius: 50%;
+  position:;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  position: absolute;
+  z-index: 1;
+  
+  
+}
+.div0:hover{
+  transform: scale(10);
+  z-index: 20;
+}
+.div1 {
+  width: 140px;
+  height: 140px;
+  background:  #DA70D6		;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 18%, 50% 50%, 50% 0%);
+  border-radius: 50%;
+  position: absolute;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  z-index: 2;
+}
+.div1:hover{
+  
+  z-index: 20;
+  transform: scale(10);
+}
+.div2 {
+  width: 140px;
+  height: 140px;
+  background: 	#EE82EE;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 0% 0%,50% 50%,130% 0%);
+  border-radius: 50%;
+  position:;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  position: absolute;
+  z-index: 0;
+}
+.div2:hover{
+  transform: scale(10);
+  z-index: ;
+}
+.div3 {
+  width: 140px;
+  height: 140px;
+  background: #BA55D3	;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 50%,50% 50%,50% 0%);
+  border-radius: 50%;
+  position:;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  position: absolute;
+  z-index: 100;
+}
+.div3:hover{
+  transform: scale(10);
+}
+
+.div4 {
+  width: 140px;
+  height: 140px;
+  background: #8A2BE2	;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 80%,50% 50%,50% 0%);
+  border-radius: 50%;
+  position:;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  position: absolute;
+  z-index: 100;
+}
+.div4:hover{
+  transform: scale(10);
+}
+.div5 {
+  width: 140px;
+  height: 140px;
+  background: #8B008B	;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 140%,50% 50%,50% 0%);
+  border-radius: 50%;
+  position:;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  position: absolute;
+  z-index: 100;
+}
+.div5:hover{
+  transform: scale(10);
+}
+.div6 {
+  width: 140px;
+  height: 140px;
+  background: #4B0082	;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 940%,50% 50%,50% 0%);
+  border-radius: 50%;
+  position:;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  position: absolute;
+  z-index: 100;
+}
+.div6:hover{
+  transform: scale(10);
+  z-index: ;
+}
